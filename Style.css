@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+th{
+  text-align: left;
+  color: white;
+  background-color:#35A9DB;
+  padding: 10px;
+}
+
+table{
+  border:2;
+  border-color: rgb(34, 34, 34);
+}
+
+button{
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color:#35A9DB ;
+  color: white;
+}
+
+button:hover{
+  color:#35A9DB;
+}

@@ -11,11 +11,12 @@
 </head>
 <body>
     <center>
-        <h2>Daftar Harga BBM</h2>
-        <h4 style="color: red;">10120729_Rissopan Panji Prayogi</h4>
+    <h2>Daftar Harga BBM</h2>
+    <h4 style="color: red;">10120729_Rissopan Panji Prayogi</h4>
     <br>
     <form action="" method="POST">
         <table>
+
             <tr>
                 <th style = "text-align: left">Liter Awal</th>        
                 <th style = "text-align: left">Liter Akhir</th>        
@@ -41,7 +42,7 @@
                     $Pertalite = 7650;
                     $Pertamax = 12500;
                     $Solar = 5150;
-                    
+
                 echo "<table>";
 
                 echo "<th>Liter</th>";
@@ -56,15 +57,19 @@
                         echo $i;
                         echo "</td>";
                         echo "<td>";
+                        echo "Rp ";
                         echo $Premium*$i;
                         echo "</td>";
                         echo "<td>";
+                        echo "Rp ";
                         echo $Pertalite*$i;
                         echo "</td>";
                         echo "<td>";
+                        echo "Rp ";
                         echo $Pertamax*$i;
                         echo "</td>";
                         echo "<td>";
+                        echo "Rp ";
                         echo $Solar*$i;
                         echo "</td>";
                         echo "</tr>";
@@ -76,4 +81,3 @@
     </center>
 </body>
 </html>
-
